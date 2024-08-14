@@ -24,4 +24,4 @@ jobs:
 
     - name: Execute Colab Notebook
       run: |
-        jupyter nbconvert --to notebook --execute sayHelloColab.ipynb --output result.ipynb
+        jupyter nbconvert --to notebook --execute sayHelloColab.ipynb --output result.ipynb 
