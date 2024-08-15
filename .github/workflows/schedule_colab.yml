@@ -1,7 +1,7 @@
 
 name: Schedule Google Colab
 
-on:
+on: push
   schedule:
     # Runs at 6:00 AM UTC daily
     - cron: '0 6 * * *'
